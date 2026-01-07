@@ -116,4 +116,6 @@ selic_mensal = {
     date(2025, 7, 1): 1.28, # Julho de 2025 [1]
     date(2025, 8, 1): 1.16, # Agosto de 2025 [1]
     date(2025, 9, 1): 1.22, # Setembro de 2025 [1]
-    date(2025, 10, 1): 1.28}  # Outubro de 2025 [1]
+    date(2025, 10, 1): 1.28, # Outubro de 2025 [1]
+    date(2025, 11, 1): 1.05, # Novembro de 2025
+    date(2025, 12, 1): 1.22} # Dezembro de 20205
