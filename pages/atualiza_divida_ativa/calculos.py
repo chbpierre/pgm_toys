@@ -90,8 +90,7 @@ correcao_tabela = {
     2000: 8.915,
     1999: 1.654,
     1998: 5.523,
-    1997: 2.950,
-}
+    1997: 2.950}
 
 selic_mensal = {
     
@@ -139,4 +138,7 @@ selic_mensal = {
     date(2025, 9, 1): 1.22, # Setembro de 2025 [1]
     date(2025, 10, 1): 1.28, # Outubro de 2025 [1]
     date(2025, 11, 1): 1.05, # Novembro de 2025
-    date(2025, 12, 1): 1.22} # Dezembro de 20205
+    date(2025, 12, 1): 1.22, # Dezembro de 20205
+    
+    # Taxas de 2026
+    date(2026, 1, 1): 1.16} # Janeiro de 2026
