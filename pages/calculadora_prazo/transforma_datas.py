@@ -7,3 +7,4 @@ def str_para_date(data):
 def date_para_str(data):
     data = datetime.strftime(data, "%d/%m/%Y")
     return data
+
