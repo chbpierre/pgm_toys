@@ -14,10 +14,16 @@ def converte_real(valor_causa):
 
 st.title('Atualização ORTN - IPCA - Recurso')
 
+ 
 # Insere os dados da dívida
 valor_causa = st.number_input('Valor da causa (R$)', placeholder ='Insira o valor da parcela a ser atualizada')
 valor_causa_str = converte_real(valor_causa)
-data_fim = st.date_input('Data de ajuizamento', value=date.today(), format="DD.MM.YYYY")
+data_fim = st.date_input(
+    'Data de ajuizamento',
+    value=date.today(),
+    min_value=date(1990, 1, 1),
+    max_value='today',
+    format="DD.MM.YYYY")
 data_ajuizamento_str = transforma_datas.date_para_str(data_fim)
 
 #Botão para atualizar
