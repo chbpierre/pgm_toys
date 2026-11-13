@@ -2,3 +2,5 @@ streamlit
 python-docx
 pandas
 python-bcb
+weasyprint
+relativedelta
