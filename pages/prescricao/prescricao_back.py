@@ -85,9 +85,9 @@ def calculadora_prescrição(dic_base):
     else:    
         dic_comp = {
             'Prescrição' : '',
-            'Resultado'  : 'ANÁLISE PELO PROCURADOR DA EF'
+            'Resultado'  : 'VER PRESCRIÇÃO INTERCORRENTE'
         }
-        
+
         dic_base.update(dic_comp)
 
     for chave, valor in dic_base.items():
